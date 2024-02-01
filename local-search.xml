@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>How to use hexo to write post and deploy pages</title>
+    <link href="/2024/02/01/hexo-tutorial/deploy/"/>
+    <url>/2024/02/01/hexo-tutorial/deploy/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;title of a post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Configure-fluid-theme"><a href="#Configure-fluid-theme" class="headerlink" title="Configure fluid theme"></a>Configure fluid theme</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">npm install --save hexo-theme-fluid<br></code></pre></td></tr></table></figure><p>To config, update <code>_config.yml</code> as follows:</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs yml"><span class="hljs-attr">theme:</span> <span class="hljs-string">fluid</span><br><span class="hljs-attr">language:</span> <span class="hljs-string">zh-CN</span><br></code></pre></td></tr></table></figure><h3 id="Run-server-and-confirm-pages-on-browser"><a href="#Run-server-and-confirm-pages-on-browser" class="headerlink" title="Run server and confirm pages on browser"></a>Run server and confirm pages on browser</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server <span class="hljs-comment"># then view localhost:4000 in your browser</span><br></code></pre></td></tr></table></figure><p>Note, due to github’s CDN caching, updates may take several minutes to appear. Use this command can confirm updates before deployment.</p><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-pages-and-files"><a href="#Generate-static-pages-and-files" class="headerlink" title="Generate static pages and files"></a>Generate static pages and files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-on-github-sites"><a href="#Deploy-on-github-sites" class="headerlink" title="Deploy on github sites"></a>Deploy on github sites</h3><p>The <code>_config.yml</code>:</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs yml"><span class="hljs-attr">deploy:</span><br>  <span class="hljs-attr">type:</span> <span class="hljs-string">git</span><br>  <span class="hljs-attr">repository:</span> <span class="hljs-string">git@github.com:username/username.github.io.git</span><br>  <span class="hljs-attr">branch:</span> <span class="hljs-string">master</span><br></code></pre></td></tr></table></figure><p>Then execute this in your working directory.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>In case git-deployer is not found, you can manually install it:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ npm install hexo-deployer-git --save<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>hexo-tutorial</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>How to write latex formulas in hexo post</title>
+    <link href="/2024/02/01/hexo-tutorial/formula/"/>
+    <url>/2024/02/01/hexo-tutorial/formula/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    <categories>
+      
+      <category>hexo-tutorial</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>learn</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
